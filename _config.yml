@@ -1,5 +1,5 @@
 layout: sidebar
-style: dark
+style: light
 
 plugins:
   - jekyll-octicons
@@ -20,6 +20,7 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
   - name: Web design
+    image_url: https://www.duda.co/blog/wp-content/uploads/2014/03/Responsive-Web-Design.png
 
   - name: Sass
     web_url: https://github.com/topics/sass
@@ -29,7 +30,7 @@ topics:
     web_url: https://github.com/topics/react
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
 
-  - name: React Native
+  - name: Redux
     web_url: https://github.com/topics/redux
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/redux/redux.png
 
