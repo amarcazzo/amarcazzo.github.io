@@ -1,6 +1,7 @@
 ---
 title: "Welcome to Jekyll!"
 published: false
+thumbnail: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
 ---
 
 **Hello world**, this is my first Jekyll blog post.
