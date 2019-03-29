@@ -1,19 +1,37 @@
 <div
   class="height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3"
 >
-  <div class="d-flex flex-justify-between flex-items-start mb-1">
-    <h1 class="f4 lh-condensed mb-1">
+  <div class="Subhead">
+    <div class="Subhead-heading">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </div>
+    <div class="Subhead-actions">
+      <label>{{ post.date | date: "%b %d, %Y" }}</label>
+    </div>
+    <div class="Subhead-description">
+      {{ post.subtitle }}
+    </div>
   </div>
-  <div class="text-gray mb-2 ws-normal">
-    {{ post.date | date: "%b %d, %Y" }}
+  <div class="d-flex flex-justify-between flex-items-start mb-1">
+    <h1 class="f4 lh-condensed mb-1"></h1>
   </div>
+  {% for tag in post.tags %}
+  <div class="d-inline-block Box mr-3">
+    <div class="d-inline-block link-gray-dark no-underline px-2 py-1">
+      <span class="text-yellow mr-1">
+        {% octicon triangle-right %}
+        {{ tag }}
+      </span>
+    </div>
+  </div>
+  {% endfor %} {% if post.thumbnail != "" %}
   <img src="{{ post.thumbnail }}" class="img-fluid center" />
+  {% endif %}
   <div>
-    <a href="">YouTube</a>
-    <a href="{{ site.baseurl }}{{ post.url }}" class="">Read more</a>
+    {% if post.youtube != "" %}
+    <a href="{{ post.youtube }}">YouTube</a>
+    {% endif %}
   </div>
 </div>
