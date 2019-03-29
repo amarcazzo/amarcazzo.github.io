@@ -15,7 +15,7 @@ Si todo sigue su camino, a mitad de año me recibo de la carrera [Técnico Super
 
 Hace un tiempo vengo con la idea de empezar a escribir pequeños artículos contando un poco **MI** experiencia en el mundo del desarrollo y, porque no, también compartir un poco de mis _(cortos quizás?)_ conocimientos.
 
-Una de las razones por la cual dar el puntapié inicial en este proyecto es que la mayoría de los tutoriales/artículos que hablan de tecnología hoy en dia están escritos en Ingles y hay poco contenido para nosotros, los hispanohablantes.
+Una de las razones por la cual decidí dar el puntapié inicial en este proyecto es que la mayoría de los tutoriales/artículos que hablan de tecnología hoy en dia están escritos en Ingles y hay poco contenido para nosotros, los hispanohablantes.
 
 Hace ya ~9 meses que estoy trabajando como desarrollador fullstack en [Nybble Group](http://www.nybblegroup.com/one-page), donde participo de proyectos con tecnologías como Angular JS, C# .NET y MySql.
 
@@ -52,7 +52,7 @@ Hace ya ~9 meses que estoy trabajando como desarrollador fullstack en [Nybble Gr
   </div>
 </div>
 
-Mi objetivo como profesional es orientarme hacia las tecnologías front-end, como podrán ver en el [sitio](/) este ultimo tiempo estuve actualizando mi repositorio de github y subiendo algún que otro proyecto utilizando librerías como React o simplemente armando templates con HTML, CSS y Vanilla JavaScript.
+Mi objetivo como profesional es orientarme hacia las tecnologías front-end, como podrán ver en este [sitio](/) el ultimo tiempo estuve actualizando mi repositorio de github y subiendo algún que otro proyecto utilizando librerías como React, Redux o simplemente armando maquetas con HTML, CSS y Vanilla JavaScript.
 
 Cerrando un poco, mi idea en general es poder compartir artículos que me parezcan interesantes, vivencias propias y algún que otro tutorial para poder mejorar, tanto ustedes como yo mismo.
 
