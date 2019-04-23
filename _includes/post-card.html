@@ -7,10 +7,8 @@
         {{ post.title }}
       </a>
     </div>
-    <div class="Subhead-actions">
-      <label>{{ post.date | date: "%b %d, %Y" }}</label>
-    </div>
     <div class="Subhead-description">
+      <label>{{ post.date | date: "%b %d, %Y" }}</label>
       {{ post.subtitle }}
     </div>
   </div>
@@ -18,14 +16,7 @@
     <h1 class="f4 lh-condensed mb-1"></h1>
   </div>
   {% for tag in post.tags %}
-  <div class="d-inline-block Box mr-3">
-    <div class="d-inline-block link-gray-dark no-underline px-2 py-1">
-      <span class="text-yellow mr-1">
-        {% octicon triangle-right %}
-        {{ tag }}
-      </span>
-    </div>
-  </div>
+  <span class="Label Label--gray-darker">{{ tag }}</span>
   {% endfor %} {% if post.thumbnail != "" %}
   <img src="{{ post.thumbnail }}" class="img-fluid center" />
   {% endif %}
